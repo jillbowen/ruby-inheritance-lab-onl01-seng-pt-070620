@@ -21,3 +21,9 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 some_more_important_knowledge = avi.teach
 
 steve.learn(some_more_important_knowledge)
+
+jess = Student.new
+jess.first_name = "Jess"
+jess.last_name = "Jones"
+
+jess.learn(some_knowledge)
